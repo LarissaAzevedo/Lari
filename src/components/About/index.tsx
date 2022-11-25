@@ -1,7 +1,10 @@
 const About = () => (
   <div>
-    <p>novo portfolio</p>
-    <a>novo portfolio</a>
+    <p>Sobre mim</p>
+    <p>
+      Sou desenvolvedora web com foco em front-end, criadora de conteúdo tech,
+      mentora e palestrante.
+    </p>
   </div>
 )
 

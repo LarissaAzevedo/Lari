@@ -1,7 +1,14 @@
-const Experiences = () => (
+const Experiences = ({
+  jobTitle = "",
+  company = "",
+  duration = "",
+  desc = "",
+}) => (
   <div>
-    <p>novo portfolio</p>
-    <a>novo portfolio</a>
+    <p>jobTitle {jobTitle}</p>
+    <p>company {company}</p>
+    <p>duration {duration}</p>
+    <p>description {desc}</p>
   </div>
 )
 
