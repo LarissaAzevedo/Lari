@@ -1,7 +1,7 @@
 const Projects = () => (
   <div>
     <p>Projetos</p>
-    <p>listinha de projetos</p>
+    <p>lista de projetos em breve</p>
   </div>
 )
 
