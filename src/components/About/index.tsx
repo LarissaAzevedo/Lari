@@ -1,11 +1,10 @@
+import { AboutPageContent } from "./styles"
+
 const About = () => (
-  <div>
-    <p>Sobre mim</p>
-    <p>
-      Sou desenvolvedora web com foco em front-end, criadora de conteúdo tech,
-      mentora e palestrante.
-    </p>
-  </div>
+  <AboutPageContent>
+    Sou desenvolvedora web com foco em front-end, mentora, palestrante, criadora
+    de conteúdo em @lari.sazevedo sobre programação e carreira em tecnologia.
+  </AboutPageContent>
 )
 
 export default About
