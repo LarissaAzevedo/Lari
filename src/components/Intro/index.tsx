@@ -1,8 +1,9 @@
 import Typist from "react-typist"
 import "react-typist/dist/Typist.css"
+import { Content } from "./styles"
 
 const Intro = () => (
-  <div>
+  <Content>
     <Typist avgTypingDelay={120}>
       <span className="intro-title">
         {"Olá, "}
@@ -10,7 +11,7 @@ const Intro = () => (
         {" aqui."}
       </span>
     </Typist>
-  </div>
+  </Content>
 )
 
 export default Intro
