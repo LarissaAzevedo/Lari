@@ -24,7 +24,7 @@
     "@splinetool/react-spline": "^2.2.3",
     "@splinetool/runtime": "^0.9.144",
     "@types/react-typist": "^2.0.3",
-    "antd": "^5.1.0",
+    "antd": "^5.7.0",
     "ants": "^0.0.3-alpha",
     "caniuse-lite": "^1.0.30001439",
     "next": "13.4.9",
