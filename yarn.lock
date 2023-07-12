@@ -1494,27 +1494,12 @@
     "@babel/helper-plugin-utils" "^7.22.5"
     regenerator-transform "^0.15.1"
 
-"@babel/plugin-transform-regenerator@^7.22.5":
-  version "7.22.5"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-regenerator/-/plugin-transform-regenerator-7.22.5.tgz#cd8a68b228a5f75fa01420e8cc2fc400f0fc32aa"
-  integrity sha512-rR7KePOE7gfEtNTh9Qw+iO3Q/e4DEsoQ+hdvM6QUDH7JRJ5qxq5AA52ZzBWbI5i9lfNuvySgOGP8ZN7LAmaiPw==
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.22.5"
-    regenerator-transform "^0.15.1"
-
 "@babel/plugin-transform-reserved-words@^7.16.5":
   version "7.16.5"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-reserved-words/-/plugin-transform-reserved-words-7.16.5.tgz#db95e98799675e193dc2b47d3e72a7c0651d0c30"
   integrity sha512-aIB16u8lNcf7drkhXJRoggOxSTUAuihTSTfAcpynowGJOZiGf+Yvi7RuTwFzVYSYPmWyARsPqUGoZWWWxLiknw==
   dependencies:
     "@babel/helper-plugin-utils" "^7.16.5"
-
-"@babel/plugin-transform-reserved-words@^7.22.5":
-  version "7.22.5"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-reserved-words/-/plugin-transform-reserved-words-7.22.5.tgz#832cd35b81c287c4bcd09ce03e22199641f964fb"
-  integrity sha512-DTtGKFRQUDm8svigJzZHzb/2xatPc6TzNvAIJ5GqOKDsGFYgAskjRulbR/vGsPKq3OPqtexnz327qYpP57RFyA==
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.22.5"
 
 "@babel/plugin-transform-reserved-words@^7.22.5":
   version "7.22.5"
@@ -2485,12 +2470,13 @@
   dependencies:
     react-merge-refs "^1.1.0"
 
-"@splinetool/runtime@^0.9.144":
-  version "0.9.144"
-  resolved "https://registry.yarnpkg.com/@splinetool/runtime/-/runtime-0.9.144.tgz#d8171f9086f22da1fee4c0579687df1a13694178"
-  integrity sha512-tJRm77+QozKzy/WAWH4Fh+GScBrVlm2JJwIdivYIlWYU05NU8Rk9XaYc/5RZJ4OvPPebafLlUtzJF35+OwLYug==
+"@splinetool/runtime@^0.9.383":
+  version "0.9.383"
+  resolved "https://registry.yarnpkg.com/@splinetool/runtime/-/runtime-0.9.383.tgz#6341ec940f1ecdfb2150e19f759e9389e8122f00"
+  integrity sha512-2NqNxxQPvWMTn9+uOXLAAFB0mIuzE0NBMaixQ16yAKxL+8YySUwOYLyM4iX0D3afUYfZovQSZiY2lSiQzL82SQ==
   dependencies:
     on-change "^4.0.0"
+    semver-compare "^1.0.0"
 
 "@surma/rollup-plugin-off-main-thread@^2.2.3":
   version "2.2.3"
@@ -3775,7 +3761,7 @@ capital-case@^1.0.4:
     tslib "^2.0.3"
     upper-case-first "^2.0.2"
 
-chalk@5.2.0, chalk@^5.0.0:
+chalk@5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.2.0.tgz#249623b7d66869c673699fb66d65723e54dfcfb3"
   integrity sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==
@@ -8141,6 +8127,11 @@ scroll-into-view-if-needed@^3.0.3:
   integrity sha512-QoCH0lVw0tbA7Rl6sToH7e1tO3n95Oi6JgBgC8hEpNNZUC91MfasJ/4E1ZdbzGueNDZ+Y7ObfRaelKUgTyPbJA==
   dependencies:
     compute-scroll-into-view "^2.0.2"
+
+semver-compare@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/semver-compare/-/semver-compare-1.0.0.tgz#0dee216a1c941ab37e9efb1788f6afc5ff5537fc"
+  integrity sha512-YM3/ITh2MJ5MtzaM429anh+x2jiLVjqILF4m4oyQB18W7Ggea7BfqdH/wGMK7dDiMghv/6WG7znWMwUDzJiXow==
 
 semver@7.0.0:
   version "7.0.0"

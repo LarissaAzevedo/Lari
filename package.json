@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@splinetool/react-spline": "^2.2.3",
-    "@splinetool/runtime": "^0.9.144",
+    "@splinetool/runtime": "^0.9.383",
     "@types/react-typist": "^2.0.3",
     "antd": "^5.1.0",
     "ants": "^0.0.3-alpha",
